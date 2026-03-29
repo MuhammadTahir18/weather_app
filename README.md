@@ -1,16 +1,34 @@
-# weather_app
+# Weather App (Flutter)
 
-A new Flutter project.
+A beautifully designed Weather Application built using Flutter & Dart that provides real-time weather updates using REST APIs. The app follows clean code practices with a focus on smooth UI/UX.
 
-## Getting Started
+# Features
+1- Get current weather data by city
+2-  Real-time temperature updates
+3-  Weather conditions with icons
+4-  Clean and minimal UI design
+5-  Rest API integration using REST
+6-  Dynamic UI updates
+7-  Responsive design for all screen sizes
+# Tech Stack
+1- Flutter - UI Framework
+2- Dart - Programming Language
+3- REST API - Weather Data (OpenWeather API)
+4- HTTP Package - API integration
+#  Architecture
 
-This project is a starting point for a Flutter application.
+# This project follows clean code principles:
 
-A few resources to get you started if this is your first Flutter project:
+1- Separation of concerns
+2- Reusable components
+3- Service-based API handling
+4- Organized folder structure
+#  Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+│
+├── screens/        # UI Screens
+├── services/       # API & Business Logic
+├── utilities/      # Constants & Helpers
+├── models/         # Data Models
+└── main.dart       # Entry Point
